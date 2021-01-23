@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     gitolite (0.0.3.alpha)
-      grit (~> 2.4.1)
+      grit (>= 2.4.1)
       hashery (~> 1.4.0)
 
 GEM
@@ -10,13 +10,15 @@ GEM
   specs:
     diff-lcs (1.1.2)
     forgery (0.5.0)
-    grit (2.4.1)
+    grit (2.5.0)
       diff-lcs (~> 1.1)
       mime-types (~> 1.15)
+      posix-spawn (~> 0.3.6)
     hashery (1.4.0)
-    mime-types (1.16)
+    mime-types (1.25.1)
+    posix-spawn (0.3.15)
     rcov (0.9.11)
-    rdoc (3.9.4)
+    rdoc (6.3.0)
     rspec (2.6.0)
       rspec-core (~> 2.6.0)
       rspec-expectations (~> 2.6.0)
@@ -33,5 +35,5 @@ DEPENDENCIES
   forgery (~> 0.5.0)
   gitolite!
   rcov (~> 0.9.11)
-  rdoc (~> 3.9.4)
+  rdoc (~> 6.3.0)
   rspec (~> 2.6.0)
